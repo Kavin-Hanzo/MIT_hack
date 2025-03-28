@@ -1,0 +1,9 @@
+Flask
+requests
+speechrecognition
+gtts
+transformers
+torch
+torchaudio
+pydub
+sentencepiece
