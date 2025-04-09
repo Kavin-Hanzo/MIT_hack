@@ -1,0 +1,33 @@
+
+# Ignore the virtual environment folder
+venv/
+.env
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.whl
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Google IDX environment files
+.idx/
+.idx/*
+idx.env

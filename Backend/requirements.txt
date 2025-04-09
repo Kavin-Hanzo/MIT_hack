@@ -1,9 +1,11 @@
-Flask
-requests
-speechrecognition
-gtts
-transformers
-torch
-torchaudio
-pydub
-sentencepiece
+streamlit
+streamlit-mic-recorder
+SpeechRecognition
+soundfile # To save audio bytes as WAV for SpeechRecognition
+numpy # Often needed for audio data handling
+duckduckgo-search
+transformers>=4.0.0 # Use a recent version
+torch>=1.9.0 # Or tensorflow if you prefer and change the pipeline
+gTTS
+sentencepiece # Often required by summarization models
+# pyaudio # Usually needed if SpeechRecognition accesses mic directly, may not be needed here but good to have just in case of OS issues
