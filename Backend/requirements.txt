@@ -8,3 +8,4 @@ torchaudio
 pydub
 sentencepiece
 serpapi
+google-search-results
